@@ -34,7 +34,7 @@ The structure of the files is described in
 </tr>
 </thead>
 <tr>
-  <td><a href=fgong_S_d_02c.txt>S</a></td>
+  <td><a href='models/fgong_S_d_02c.txt?raw=true'>S</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -44,7 +44,7 @@ The structure of the files is described in
   <td>-   </td>
 </tr>
 <tr>
-  <td><a href=fgong_Age_d_06c.txt>Age</a></td>
+  <td><a href='models/fgong_Age_d_06c.txt?raw=true'>Age</a></td>
   <td>4.57</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -54,7 +54,7 @@ The structure of the files is described in
   <td>-  </td>
 </tr>
 <tr>
-  <td><a href=fgong_R_s_d_05c.txt>R_s</a></td>
+  <td><a href='models/fgong_R_s_d_05c.txt?raw=true'>R_s</a></td>
   <td>4.60</td>
   <td>6.95508</td>
   <td>3.846</td>
@@ -64,7 +64,7 @@ The structure of the files is described in
   <td>-  </td>
 </tr>
 <tr>
-  <td><a href=fgong_L_s_d_41c.txt>L_s</a></td>
+  <td><a href='models/fgong_L_s_d_41c.txt?raw=true'>L_s</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.828</td>
@@ -74,7 +74,7 @@ The structure of the files is described in
   <td>-   </td>
 </tr>
 <tr>
-  <td><a href=fgong_Opc_7_0_d_15c.txt>Opc_7_0</a></td>
+  <td><a href='models/fgong_Opc_7_0_d_15c.txt?raw=true'>Opc_7_0</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -84,7 +84,7 @@ The structure of the files is described in
   <td>EOS Liv05   </td>
 </tr>
 <tr>
-  <td><a href=fgong_Opc_6_5_d_16c.txt>Opc_6_5</a></td>
+  <td><a href='models/fgong_Opc_6_5_d_16c.txt?raw=true'>Opc_6_5</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -94,7 +94,7 @@ The structure of the files is described in
   <td>Local delta log kappa$ </td>
 </tr>
 <tr>
-  <td><a href=fgong_OPAL96_d_07c.txt>OPAL96</a></td>
+  <td><a href='models/fgong_OPAL96_d_07c.txt?raw=true'>OPAL96</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -104,7 +104,7 @@ The structure of the files is described in
   <td>Local delta log kappa$  </td>
 </tr>
 <tr>
-  <td><a href=fgong_OP05_d_36c.txt>OP05</a></td>
+  <td><a href='models/fgong_OP05_d_36c.txt?raw=true'>OP05</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -114,7 +114,7 @@ The structure of the files is described in
   <td>- </td>
 </tr>
 <tr>
-  <td><a href=fgong_GS98_d_37c.txt>GS98</a></td>
+  <td><a href='models/fgong_GS98_d_37c.txt?raw=true'>GS98</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -124,7 +124,7 @@ The structure of the files is described in
   <td>Surf. opac.   </td>
 </tr>
 <tr>
-  <td><a href=fgong_Liv05_d_40c.txt>Liv05</a></td>
+  <td><a href='models/fgong_Liv05_d_40c.txt?raw=true'>Liv05</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -134,7 +134,7 @@ The structure of the files is described in
   <td>-     </td>
 </tr>
 <tr>
-  <td><a href=fgong_Surf_opac_d_35c.txt>Surf_opac</a></td>
+  <td><a href='models/fgong_Surf_opac_d_35c.txt?raw=true'>Surf_opac</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -144,7 +144,7 @@ The structure of the files is described in
   <td>-    </td>
 </tr>
 <tr>
-  <td><a href=fgong_CM_d_24c.txt>CM</a></td>
+  <td><a href='models/fgong_CM_d_24c.txt?raw=true'>CM</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -154,7 +154,7 @@ The structure of the files is described in
   <td>CM conv.   </td>
 </tr>
 <tr>
-  <td><a href=fgong_Adelb11_d_34c.txt>Adelb11</a></td>
+  <td><a href='models/fgong_Adelb11_d_34c.txt?raw=true'>Adelb11</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -164,7 +164,7 @@ The structure of the files is described in
   <td>EnGen. Adelberger   </td>
 </tr>
 <tr>
-  <td><a href=fgong_NACRE_d_39c.txt>NACRE</a></td>
+  <td><a href='models/fgong_NACRE_d_39c.txt?raw=true'>NACRE</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -174,7 +174,7 @@ The structure of the files is described in
   <td>EnGen. NACRE   </td>
 </tr>
 <tr>
-  <td><a href=fgong_3He_eql_d_02c_eq.txt>3He_eql</a></td>
+  <td><a href='models/fgong_3He_eql_d_02c_eq.txt?raw=true'>3He_eql</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -184,7 +184,7 @@ The structure of the files is described in
   <td>3He nucl. eql.   </td>
 </tr>
 <tr>
-  <td><a href=fgong_No_el_scrn_d_20c.txt>No_el_scrn</a></td>
+  <td><a href='models/fgong_No_el_scrn_d_20c.txt?raw=true'>No_el_scrn</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -194,7 +194,7 @@ The structure of the files is described in
   <td>no electr. screen. </td>
 </tr>
 <tr>
-  <td><a href=fgong_Dc_d_17c.txt>Dc</a></td>
+  <td><a href='models/fgong_Dc_d_17c.txt?raw=true'>Dc</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -204,7 +204,7 @@ The structure of the files is described in
   <td>Change diff. </td>
 </tr>
 <tr>
-  <td><a href=fgong_DVc_d_18c.txt>DVc</a></td>
+  <td><a href='models/fgong_DVc_d_18c.txt?raw=true'>DVc</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -214,7 +214,7 @@ The structure of the files is described in
   <td>Change diff., settl. </td>
 </tr>
 <tr>
-  <td><a href=fgong_No_diff_03c.txt>No_diff</a></td>
+  <td><a href='models/fgong_No_diff_03c.txt?raw=true'>No_diff</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -224,7 +224,7 @@ The structure of the files is described in
   <td>No diffusion </td>
 </tr>
 <tr>
-  <td><a href=fgong_AGS05_d_21c.txt>AGS05</a></td>
+  <td><a href='models/fgong_AGS05_d_21c.txt?raw=true'>AGS05</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -234,7 +234,7 @@ The structure of the files is described in
   <td>-     </td>
 </tr>
 <tr>
-  <td><a href=fgong_AGSS09_d_22c.txt>AGSS09</a></td>
+  <td><a href='models/fgong_AGSS09_d_22c.txt?raw=true'>AGSS09</a></td>
   <td>4.60</td>
   <td>6.9599</td>
   <td>3.846</td>
@@ -258,7 +258,7 @@ respectively, while `Kur91`, `Alex94` and `Fer05` indicate low-temperature opaci
 <a href='https://doi.org/10.1086/175039'>Alexander and Ferguson (1994)</a> and 
 <a href='https://doi.org/10.1086/428642'>Ferguson et al. (2005)</a>.
 
-- The heavy-element abundance used in the opacities are GN93
+- The heavy-element abundance used in the opacities are `GN93`
 (Grevesse and Noels 1993),
 <a href='https://doi.org/10.1007/978-94-011-4820-7_15'>(Grevesse and Sauval 1998)</a>,
 AGS05 <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
