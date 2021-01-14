@@ -261,8 +261,8 @@ respectively, while `Kur91`, `Alex94` and `Fer05` indicate low-temperature opaci
 - The heavy-element abundance used in the opacities are `GN93`
 (Grevesse and Noels 1993),
 <a href='https://doi.org/10.1007/978-94-011-4820-7_15'>(Grevesse and Sauval 1998)</a>,
-AGS05 <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
-AGSS09 <a href='https://doi.org/10.1146/annurev.astro.46.060407.145222'>(Asplund et al. 2009)</a>.
+`AGS05` <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
+`AGSS09` <a href='https://doi.org/10.1146/annurev.astro.46.060407.145222'>(Asplund et al. 2009)</a>.
 
 - The default equation of state is the 
 <a href='https://doi.org/10.1086/176705'>Rogers et al. (1996)</a>
