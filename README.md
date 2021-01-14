@@ -245,8 +245,10 @@ The structure of the files is described in
 </tr>
 </table>
 
-Parameters of solar models. Age, R and L are for the model 
-of the present Sun.
+## Parameters of solar models. 
+
+Age, R and L are for the model of the present Sun.
+
 OPAL92, OPAL96 and OP05 refer to the opacity tables by
 <a href='https://doi.org/10.1086/191659'>Rogers and Iglesias (1992)</a>,
 <a href='https://doi.org/10.1086/175539'>Iglesias and Rogers (1996)</a> and 
@@ -256,23 +258,28 @@ from
 <a href='https://doi.org/10.1007/978-94-011-3554-2_42'>Kurucz (1991)</a>, 
 <a href='https://doi.org/10.1086/175039'>Alexander and Ferguson (1994)</a> and 
 <a href='https://doi.org/10.1086/428642'>Ferguson et al. (2005)</a>.
+
 The heavy-element abundance used in the opacities are GN93
 (Grevesse and Noels 1993),
 <a href='https://doi.org/10.1007/978-94-011-4820-7_15'>(Grevesse and Sauval 1998)</a>,
 AGS05 <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
 AGSS09 <a href='https://doi.org/10.1146/annurev.astro.46.060407.145222'>(Asplund et al. 2009)</a>.
+
 The default equation of state is the 
 <a href='https://doi.org/10.1086/176705'>Rogers et al. (1996)</a>
 implementation of the
 OPAL formulation, while Model Liv05 used the 
 <a href='https://doi.org/10.1086/341894'>Rogers and Nayfonov (2002)</a> 
 version.
-In Models Opc_7_0 and  Opc_6_5 localized increases in opacity
+
+In Models Opc_7_0 and Opc_6_5 localized increases in opacity
 were included, at respectively log T_kappa = 7.0 and 6.5.
+
 Model CM replaced the mixing-length treatment of convection 
 (Bohm-Vitense 1958) by an emulation of the 
 <a href='https://doi.org/10.1086/169815'>Canuto and Mazzitelli (1991)</a>
 formulation.
+
 The default set of nuclear-reaction parameters is based on 
 <a href='https://doi.org/10.1103/revmodphys.67.781'>Bahcal and Pinsonneault (1995)</a>,
 while Models Adelb11 and NACRE used, respectively,
@@ -282,11 +289,12 @@ and the NACRE set
 <a href='https://doi.org.10.1016/S0375-9474(99)00030-5'>(Angulo et al. 1999)</a>
 with an updated 14N + 1H reaction 
 <a href='https://doi.org/10.1016/j.physletb.2004.03.092'>(Formicola et al. 2004)</a>.
-In Model 3He_eql the 3He abundance was assumed to be always
-in nuclear equilibrium, while Model No_el_scrn neglected electron screening.
-In Model Dc the diffusion coefficient D_i was increased by a
-factor 1.2, while in Model DVc
+
+In Model 3He_eql the 3He abundance was assumed to be always in nuclear equilibrium, while Model No_el_scrn neglected electron screening.
+
+In Model Dc the diffusion coefficient D_i was increased by a factor 1.2, while in Model DVc
 both D_i and V_i were increased by this factor.
+
 Finally diffusion and settling were neglected in Model No_diff.
 <!--
 Values or other aspects differing from Model~S are shown as {\bf bold}.
