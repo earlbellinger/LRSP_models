@@ -1,24 +1,14 @@
-<html>
-<TITLE>
-Solar models
-</TITLE>
+# Solar models
 
-<h1>
-Solar models
-</h1>
-
-<p>
 These are models discussed in J. Christensen-Dalsgaard: 
-<a href=https://arxiv.org/abs/2007.06488><i>Solar structure and evolution</i></a> 
+<a href='https://arxiv.org/abs/2007.06488'><i>Solar structure and evolution</i></a> 
 (see Tables 1 and 5 of the paper), to be published by
 <i>Living Reviews in Solar Physics</i>.
 
 The model names are linked to ASCII files of the model structure, in the
 so-called GONG format.
 The structure of the files is described in 
-<a href=file-format.pdf><i>File format for the GONG solar model project</i></a>.
-
-<p>
+<a href='file-format.pdf'><i>File format for the GONG solar model project</i></a>.
 
 <table style="width:100%">
 	<thead align="left">
@@ -255,44 +245,43 @@ The structure of the files is described in
 </tr>
 </table>
 
-<p>
 Parameters of solar models. Age, R and L are for the model 
 of the present Sun.
 OPAL92, OPAL96 and OP05 refer to the opacity tables by
-<a href=https://doi.org/10.1086/191659>Rogers and Iglesias (1992)</a>,
-<a href=https://doi.org/10.1086/175539>Iglesias and Rogers (1996)</a> and 
-<a href=https://doi.org/10.1111/j.1365-2966.2005.08991.x>Badnell et al. (2005)</a>,
+<a href='https://doi.org/10.1086/191659'>Rogers and Iglesias (1992)</a>,
+<a href='https://doi.org/10.1086/175539'>Iglesias and Rogers (1996)</a> and 
+<a href='https://doi.org/10.1111/j.1365-2966.2005.08991.x'>Badnell et al. (2005)</a>,
 respectively, while Kur91, Alex94 and Fer05 indicate low-temperature opacities
 from
-<a href=https://doi.org/10.1007/978-94-011-3554-2 42>Kurucz (1991)</a>, 
-<a href=https://doi.org/10.1086/175039>Alexander and Ferguson (1994)</a> and 
-<a href=https://doi.org/10.1086/428642>Ferguson et al. (2005)</a>.
+<a href='https://doi.org/10.1007/978-94-011-3554-2_42'>Kurucz (1991)</a>, 
+<a href='https://doi.org/10.1086/175039'>Alexander and Ferguson (1994)</a> and 
+<a href='https://doi.org/10.1086/428642'>Ferguson et al. (2005)</a>.
 The heavy-element abundance used in the opacities are GN93
 (Grevesse and Noels 1993),
-<a href=https://doi.org/10.1007/978-94-011-4820-7_15>(Grevesse and Sauval 1998)</a>,
-AGS05 <a href =https://doi.org/10.1051/0004-6361:20041951>(Asplund et al. 2005)</a> or
-AGSS09 <a href =https://doi.org/10.1146/annurev.astro.46.060407.145222>(Asplund et al. 2009)</a>.
+<a href='https://doi.org/10.1007/978-94-011-4820-7_15'>(Grevesse and Sauval 1998)</a>,
+AGS05 <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
+AGSS09 <a href='https://doi.org/10.1146/annurev.astro.46.060407.145222'>(Asplund et al. 2009)</a>.
 The default equation of state is the 
-<a href=https://doi.org/10.1086/176705>Rogers et al. (1996)</a>
+<a href='https://doi.org/10.1086/176705'>Rogers et al. (1996)</a>
 implementation of the
 OPAL formulation, while Model Liv05 used the 
-<a href=https://doi.org/10.1086/341894>Rogers and Nayfonov (2002)</a> 
+<a href='https://doi.org/10.1086/341894'>Rogers and Nayfonov (2002)</a> 
 version.
 In Models Opc_7_0 and  Opc_6_5 localized increases in opacity
 were included, at respectively log T_kappa = 7.0 and 6.5.
 Model CM replaced the mixing-length treatment of convection 
 (Bohm-Vitense 1958) by an emulation of the 
-<a href=https://doi.org/10.1086/169815>Canuto and Mazzitelli (1991)</a>
+<a href='https://doi.org/10.1086/169815'>Canuto and Mazzitelli (1991)</a>
 formulation.
 The default set of nuclear-reaction parameters is based on 
-<a href=https://doi.org/10.1103/revmodphys.67.781>Bahcal and Pinsonneault (1995)</a>,
+<a href='https://doi.org/10.1103/revmodphys.67.781'>Bahcal and Pinsonneault (1995)</a>,
 while Models Adelb11 and NACRE used, respectively,
 the set from
-<a href=https://doi.org/10.1103/RevModPhys.83.195 >Adelberger et al. (2011)</a>
+<a href='https://doi.org/10.1103/RevModPhys.83.195'>Adelberger et al. (2011)</a>
 and the NACRE set
-<a href=https://doi.org.10.1016/S0375-9474(99)00030-5>(Angulo et al. 1999)</a>
+<a href='https://doi.org.10.1016/S0375-9474(99)00030-5'>(Angulo et al. 1999)</a>
 with an updated 14N + 1H reaction 
-<a href=https://doi.org/10.1016/j.physletb.2004.03.092>(Formicola et al. 2004)</a>.
+<a href='https://doi.org/10.1016/j.physletb.2004.03.092'>(Formicola et al. 2004)</a>.
 In Model 3He_eql the 3He abundance was assumed to be always
 in nuclear equilibrium, while Model No_el_scrn neglected electron screening.
 In Model Dc the diffusion coefficient D_i was increased by a
@@ -307,8 +296,4 @@ Values or other aspects differing from Model~S are shown as {\bf bold}.
 <hr>
 Last updated 
 Tuesday 15 December 2020, at 16:45
-by 
-<script> document.write ("<a href='mailto:jcd" + "@" + "phys.au.dk'>" +
-"J&oslash;rgen Christensen-Dalsgaard</a>");</script>
-
-</html>
+by <a href='mailto:jcd@phys.au.dk'>Jørgen Christensen-Dalsgaard</a>
