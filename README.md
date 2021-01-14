@@ -294,7 +294,7 @@ with an updated 14N + 1H reaction
 - In Model `Dc` the diffusion coefficient D_i was increased by a factor 1.2, while in Model `DVc`
 both D_i and V_i were increased by this factor.
 
-- Finally diffusion and settling were neglected in Model No_diff.
+- Finally diffusion and settling were neglected in Model `No_diff`.
 <!--
 Values or other aspects differing from Model~S are shown as {\bf bold}.
 -->
