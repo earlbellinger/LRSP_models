@@ -249,11 +249,11 @@ The structure of the files is described in
 
 - Age, R and L are for the model of the present Sun.
 
-- OPAL92, OPAL96 and OP05 refer to the opacity tables by
+- `OPAL92`, `OPAL96` and `OP05` refer to the opacity tables by
 <a href='https://doi.org/10.1086/191659'>Rogers and Iglesias (1992)</a>,
 <a href='https://doi.org/10.1086/175539'>Iglesias and Rogers (1996)</a> and 
 <a href='https://doi.org/10.1111/j.1365-2966.2005.08991.x'>Badnell et al. (2005)</a>,
-respectively, while Kur91, Alex94 and Fer05 indicate low-temperature opacities from
+respectively, while `Kur91`, `Alex94` and `Fer05` indicate low-temperature opacities from
 <a href='https://doi.org/10.1007/978-94-011-3554-2_42'>Kurucz (1991)</a>, 
 <a href='https://doi.org/10.1086/175039'>Alexander and Ferguson (1994)</a> and 
 <a href='https://doi.org/10.1086/428642'>Ferguson et al. (2005)</a>.
