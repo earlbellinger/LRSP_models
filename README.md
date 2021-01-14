@@ -247,40 +247,39 @@ The structure of the files is described in
 
 ## Parameters of solar models. 
 
-Age, R and L are for the model of the present Sun.
+- Age, R and L are for the model of the present Sun.
 
-OPAL92, OPAL96 and OP05 refer to the opacity tables by
+- OPAL92, OPAL96 and OP05 refer to the opacity tables by
 <a href='https://doi.org/10.1086/191659'>Rogers and Iglesias (1992)</a>,
 <a href='https://doi.org/10.1086/175539'>Iglesias and Rogers (1996)</a> and 
 <a href='https://doi.org/10.1111/j.1365-2966.2005.08991.x'>Badnell et al. (2005)</a>,
-respectively, while Kur91, Alex94 and Fer05 indicate low-temperature opacities
-from
+respectively, while Kur91, Alex94 and Fer05 indicate low-temperature opacities from
 <a href='https://doi.org/10.1007/978-94-011-3554-2_42'>Kurucz (1991)</a>, 
 <a href='https://doi.org/10.1086/175039'>Alexander and Ferguson (1994)</a> and 
 <a href='https://doi.org/10.1086/428642'>Ferguson et al. (2005)</a>.
 
-The heavy-element abundance used in the opacities are GN93
+- The heavy-element abundance used in the opacities are GN93
 (Grevesse and Noels 1993),
 <a href='https://doi.org/10.1007/978-94-011-4820-7_15'>(Grevesse and Sauval 1998)</a>,
 AGS05 <a href='https://doi.org/10.1051/0004-6361:20041951'>(Asplund et al. 2005)</a> or
 AGSS09 <a href='https://doi.org/10.1146/annurev.astro.46.060407.145222'>(Asplund et al. 2009)</a>.
 
-The default equation of state is the 
+- The default equation of state is the 
 <a href='https://doi.org/10.1086/176705'>Rogers et al. (1996)</a>
 implementation of the
 OPAL formulation, while Model Liv05 used the 
 <a href='https://doi.org/10.1086/341894'>Rogers and Nayfonov (2002)</a> 
 version.
 
-In Models Opc_7_0 and Opc_6_5 localized increases in opacity
+- In Models Opc_7_0 and Opc_6_5 localized increases in opacity
 were included, at respectively log T_kappa = 7.0 and 6.5.
 
-Model CM replaced the mixing-length treatment of convection 
+- Model CM replaced the mixing-length treatment of convection 
 (Bohm-Vitense 1958) by an emulation of the 
 <a href='https://doi.org/10.1086/169815'>Canuto and Mazzitelli (1991)</a>
 formulation.
 
-The default set of nuclear-reaction parameters is based on 
+- The default set of nuclear-reaction parameters is based on 
 <a href='https://doi.org/10.1103/revmodphys.67.781'>Bahcal and Pinsonneault (1995)</a>,
 while Models Adelb11 and NACRE used, respectively,
 the set from
@@ -290,12 +289,12 @@ and the NACRE set
 with an updated 14N + 1H reaction 
 <a href='https://doi.org/10.1016/j.physletb.2004.03.092'>(Formicola et al. 2004)</a>.
 
-In Model 3He_eql the 3He abundance was assumed to be always in nuclear equilibrium, while Model No_el_scrn neglected electron screening.
+- In Model 3He_eql the 3He abundance was assumed to be always in nuclear equilibrium, while Model No_el_scrn neglected electron screening.
 
-In Model Dc the diffusion coefficient D_i was increased by a factor 1.2, while in Model DVc
+- In Model Dc the diffusion coefficient D_i was increased by a factor 1.2, while in Model DVc
 both D_i and V_i were increased by this factor.
 
-Finally diffusion and settling were neglected in Model No_diff.
+- Finally diffusion and settling were neglected in Model No_diff.
 <!--
 Values or other aspects differing from Model~S are shown as {\bf bold}.
 -->
