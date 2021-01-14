@@ -302,5 +302,5 @@ Values or other aspects differing from Model~S are shown as {\bf bold}.
 
 <hr>
 Last updated 
-Tuesday 15 December 2020, at 16:45
-by <a href='mailto:jcd@phys.au.dk'>Jørgen Christensen-Dalsgaard</a>
+Thursday 14 January 2021
+by Jørgen Christensen-Dalsgaard
