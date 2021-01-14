@@ -91,7 +91,7 @@ The structure of the files is described in
   <td>OPAL92</td>
   <td>Kur91</td>
   <td>GN93</td>
-  <td>Local delta log kappa$ </td>
+  <td>Local delta log kappa </td>
 </tr>
 <tr>
   <td><a href='models/fgong_OPAL96_d_07c.txt?raw=true'>OPAL96</a></td>
@@ -101,7 +101,7 @@ The structure of the files is described in
   <td>OPAL92</td>
   <td>Kur91</td>
   <td>GN93</td>
-  <td>Local delta log kappa$  </td>
+  <td>Local delta log kappa  </td>
 </tr>
 <tr>
   <td><a href='models/fgong_OP05_d_36c.txt?raw=true'>OP05</a></td>
