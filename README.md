@@ -309,6 +309,7 @@ internal file name used in the modelling.
 # Oscillation frequencies
 
 Oscillation frequencies have been computed for the models listed above, for
+modes of degree up to 6 with
 frequencies between the lower (gravity-wave) and upper (acoustic) cut-off
 frequencies (see Unno et al. 1989; <i>Non-radial oscillations of stars</i>,
 for details). 
