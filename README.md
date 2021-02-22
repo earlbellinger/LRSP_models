@@ -4,6 +4,8 @@ These are models discussed in J. Christensen-Dalsgaard:
 <a href='https://arxiv.org/abs/2007.06488'><i>Solar structure and evolution</i></a> 
 (see Tables 1 and 5 of the paper), to be published by
 <i>Living Reviews in Solar Physics</i>.
+In addition to the model structure, oscillation frequencies for the models are
+provided below.
 
 The model names are linked to ASCII files of the model structure, in the
 so-called GONG format.
