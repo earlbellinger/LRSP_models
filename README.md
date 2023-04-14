@@ -4,6 +4,8 @@ These are models discussed in J. Christensen-Dalsgaard:
 <a href='https://arxiv.org/abs/2007.06488'><i>Solar structure and evolution</i></a> 
 (see Tables 1 and 5 of the paper), to be published by
 <i>Living Reviews in Solar Physics</i>.
+In addition to the model structure, oscillation frequencies for the models are
+provided below.
 
 The model names are linked to ASCII files of the model structure, in the
 so-called GONG format.
@@ -91,7 +93,7 @@ The structure of the files is described in
   <td>OPAL92</td>
   <td>Kur91</td>
   <td>GN93</td>
-  <td>Local delta log kappa$ </td>
+  <td>Local delta log kappa </td>
 </tr>
 <tr>
   <td><a href='models/fgong_OPAL96_d_07c.txt?raw=true'>OPAL96</a></td>
@@ -101,7 +103,7 @@ The structure of the files is described in
   <td>OPAL92</td>
   <td>Kur91</td>
   <td>GN93</td>
-  <td>Local delta log kappa$  </td>
+  <td>Local delta log kappa  </td>
 </tr>
 <tr>
   <td><a href='models/fgong_OP05_d_36c.txt?raw=true'>OP05</a></td>
@@ -294,13 +296,273 @@ with an updated 14N + 1H reaction
 - In Model `Dc` the diffusion coefficient D_i was increased by a factor 1.2, while in Model `DVc`
 both D_i and V_i were increased by this factor.
 
-- Finally diffusion and settling were neglected in Model `No_diff`.
+- Finally diffusion and settling were neglected in Model `No_diff`.<p><p>
 <!--
 Values or other aspects differing from Model~S are shown as {\bf bold}.
 -->
 
+For convenience, all models have been collected in 
+<a href=fgong_combined.zip>a zip file</a>.
+Here the file names have the structure<p>
+fgong_name_file-ID.txt<p>
+where 'name' is the model name used above and 'file-ID' identifies the
+internal file name used in the modelling.
+
+# Oscillation frequencies
+
+Oscillation frequencies have been computed for the models listed above, for
+modes of degree up to 6 with
+frequencies between the lower (gravity-wave) and upper (acoustic) cut-off
+frequencies (see Unno et al. 1989; <i>Non-radial oscillations of stars</i>,
+for details). 
+They are linked in the copy below of the above table. 
+The structure of the files is described in 
+<a href='frequency_format.pdf'><i>Format for frequency comparison</i></a>.
+<p><p>
+
+<table style="width:100%">
+	<thead align="left">
+<tr style="left-align">
+  <th style="left-align">Model</th>
+  <th>Age</th>
+  <th>R</th>
+  <th>L</th>
+  <th>Opacity</th>
+  <th>Surface</th>
+  <th>Surface</th>
+  <th>Other changes </th>
+</tr>
+<tr>
+  <th></th>
+  <th>(Gyr)</th>
+  <th>(1.e10 cm)</th>
+  <th>(1.e33 erg/s)</th>
+  <th>tables</th>
+  <th>opacity</th>
+  <th>comp.</th>
+  <th>(see caption) </th>
+</tr>
+</thead>
+<tr>
+  <td><a href='frequencies/fobs_S_d_02c.txt?raw=true'>S</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>-   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Age_d_06c.txt?raw=true'>Age</a></td>
+  <td>4.57</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>-  </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_R_s_d_05c.txt?raw=true'>R_s</a></td>
+  <td>4.60</td>
+  <td>6.95508</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>-  </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_L_s_d_41c.txt?raw=true'>L_s</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.828</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>-   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Opc_7_0_d_15c.txt?raw=true'>Opc_7_0</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>EOS Liv05   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Opc_6_5_d_16c.txt?raw=true'>Opc_6_5</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>Local delta log kappa </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_OPAL96_d_07c.txt?raw=true'>OPAL96</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>Local delta log kappa  </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_OP05_d_36c.txt?raw=true'>OP05</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>- </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_GS98_d_37c.txt?raw=true'>GS98</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Fer05</td>
+  <td>GN93</td>
+  <td>Surf. opac.   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Liv05_d_40c.txt?raw=true'>Liv05</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Fer05</td>
+  <td>GS98</td>
+  <td>-     </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Surf_opac_d_35c.txt?raw=true'>Surf_opac</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OP05</td>
+  <td>Fer05</td>
+  <td>GS98</td>
+  <td>-    </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_CM_d_24c.txt?raw=true'>CM</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>CM conv.   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Adelb11_d_34c.txt?raw=true'>Adelb11</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>EnGen. Adelberger   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_NACRE_d_39c.txt?raw=true'>NACRE</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>EnGen. NACRE   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_3He_eql_d_02c_eq.txt?raw=true'>3He_eql</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>3He nucl. eql.   </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_No_el_scrn_d_20c.txt?raw=true'>No_el_scrn</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>no electr. screen. </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_Dc_d_17c.txt?raw=true'>Dc</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>Change diff. </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_DVc_d_18c.txt?raw=true'>DVc</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL92</td>
+  <td>Kur91</td>
+  <td>GN93</td>
+  <td>Change diff., settl. </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_No_diff_03c.txt?raw=true'>No_diff</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Alex94</td>
+  <td>GN93</td>
+  <td>No diffusion </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_AGS05_d_21c.txt?raw=true'>AGS05</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Fer05</td>
+  <td>AGS05  </td>
+  <td>-     </td>
+</tr>
+<tr>
+  <td><a href='frequencies/fobs_AGSS09_d_22c.txt?raw=true'>AGSS09</a></td>
+  <td>4.60</td>
+  <td>6.9599</td>
+  <td>3.846</td>
+  <td>OPAL96</td>
+  <td>Fer05</td>
+  <td>AGSS09  </td>
+  <td>-     </td>
+</tr>
+</table>
+<p><p>
+
+For convenience, all models have been collected in 
+<a href=fobs_combined.zip>a zip file</a>.
+The file names use the same convention as the model file names provided above,
+with 'fobs' instead of 'fgong'
+<p><p>
 
 <hr>
 Last updated 
-Tuesday 15 December 2020, at 16:45
-by <a href='mailto:jcd@phys.au.dk'>Jørgen Christensen-Dalsgaard</a>
+Saturday 20 February 2021
+by Jørgen Christensen-Dalsgaard
